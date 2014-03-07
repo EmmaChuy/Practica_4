@@ -1,0 +1,57 @@
+$Nopal = 20;
+$Filete = 90;
+$Limon = 50;
+$Huevo = 25;
+$Crema = 25;
+$Subtotal = $Nopal+$Filete+$Limon+$Huevo+$Crema;
+$IVA = $Subtotal*.16;
+$Total = $Subtotal+$IVA;
+?>
+<html>
+<body>
+<table border=1>
+
+<tr>
+<td>Nopal</td>
+<td><?php echo ("$".$Nopal); ?></td>
+</tr>
+
+<tr>
+<td>Filete</td>
+<td><?php echo ("$".$Filete); ?></td>
+</tr>
+
+<tr>
+<td>Limon</td>
+<td><?php echo ("$".$Limon); ?></td>
+</tr>
+
+<tr>
+<td>Huevo</td>
+<td><?php echo ("$".$Huevo); ?></td>
+</tr>
+
+<tr>
+<td>Crema</td>
+<td><?php echo ("$".$Crema); ?></td>
+</tr>
+
+<tr>
+<td>Subtotal</td>
+<td><?php echo("$".$Subtotal) ?></td>
+</tr>
+
+<tr>
+<td>IVA</td>
+<td><?php echo("$".$IVA) ?></td>
+</tr>
+
+<tr>
+<td>Total</td>
+<td><?php echo("$".$Total) ?></td>
+</tr>
+
+</html>
+</body>
+</table>
+<?pnp
